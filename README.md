@@ -5,5 +5,8 @@ This is a text editor app that runs in the browser but can also be installed on 
 # Image
 ![jate](https://user-images.githubusercontent.com/88348635/157116657-d481b8fb-be3e-47f0-803e-557bc9ddfeb4.jpg)
 
+# Installation 
+To install simly click the install button in the applications navigation bar. 
+
 # Website: 
 https://text-editor-robbyhill20.herokuapp.com/
