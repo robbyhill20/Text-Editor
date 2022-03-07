@@ -14,21 +14,21 @@ module.exports = () => {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
-    plugins: [
-      new HtmlWebpackPlugin({
+plugins: [
+new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'J.A.T.E'
+  title: 'JATE'
       }),
-      new InjectManifest({
-        swSrc: './src-sw.js',
-        swDest: 'src-sw.js',
+  new InjectManifest({
+   swSrc: './src-sw.js',
+  swDest: 'src-sw.js',
       }),
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Just Another Text Editor',
-        short_name: 'J.A.T.E',
-        description: 'Takes notes with JavaScript syntax highlighting!',
+        name: 'Just another Text Editor',
+        short_name: 'JATE',
+        description: 'This will highlight JS code',
         background_color: '#225ca3',
         theme_color: '#225ca3',
         start_url: '/',
@@ -42,8 +42,7 @@ module.exports = () => {
         ],
       }),
     ],
-
-    module: {
+  module: {
       rules: [
         {
           test: /\.css$/i,
